@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Anshu Chandola",
+  name: "Karan Chandola",
   initials: "AC",
   headline: "Computer Science Diploma Student | Aspiring Full-Stack Developer",
   location: "Uttarakhand, India",

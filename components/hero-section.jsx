@@ -29,8 +29,8 @@ export function HeroSection() {
       <aside className="relative z-10 flex flex-col gap-7 sm:flex-row sm:items-end lg:flex-col lg:items-start lg:gap-6 lg:mb-2">
         <div className="relative aspect-[2/3] w-full max-w-56 self-center overflow-hidden rounded-md border border-black/10 bg-[#d9d7c9] sm:max-w-52 lg:max-w-64 lg:self-auto">
           <Image
-            src="/anshu.jpg"
-            alt="Anshu Chandola outdoors"
+            src="/karn.jpg"
+            alt="Karan Chandola outdoors"
             fill
             priority
             sizes="(max-width: 640px) 224px, (max-width: 1024px) 208px, 256px"

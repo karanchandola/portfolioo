@@ -17,7 +17,7 @@ export default function Navbar() {
             AC
           </span>
           <div className="min-w-0">
-            <p className="truncate text-sm font-semibold text-neutral-950">Anshu Chandola</p>
+            <p className="truncate text-sm font-semibold text-neutral-950">Karan Chandola</p>
             <p className="max-w-40 truncate text-xs text-neutral-500">Aspiring Full-Stack Developer</p>
           </div>
         </Link>
@@ -31,8 +31,8 @@ export default function Navbar() {
         </nav>
 
         <a
-          href="/resume.pdf"
-          download="Anshu-Chandola-Resume.pdf"
+          href="/karanchandolaresume.pdf"
+          download="Karan-Chandola-Resume.pdf"
           className="col-start-2 row-start-1 inline-flex min-h-10 items-center justify-center rounded-full bg-neutral-950 px-3 py-2 text-xs font-medium text-white shadow-[0_14px_40px_rgba(0,0,0,0.16)] transition-transform duration-300 ease-out hover:-translate-y-0.5 hover:bg-neutral-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/30 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent active:scale-[0.98] sm:px-5 sm:py-3 sm:text-sm md:col-start-3 md:justify-self-end"
         >
           <span className="sm:hidden">CV ↓</span>
