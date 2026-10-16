@@ -3,7 +3,7 @@ import { profile } from "@/components/portfolio-data";
 import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
-  
+
   return (
     <section className="relative grid gap-8 overflow-hidden py-10 sm:gap-10 sm:py-20 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
       <div className="pointer-events-none absolute right-0 top-8 hidden h-64 w-64 rotate-6 border border-[#3d8278]/20 lg:block" />
@@ -28,7 +28,7 @@ export function HeroSection() {
         </div>
       </div>
       <aside className="relative z-10 flex flex-col gap-7 sm:flex-row sm:items-end lg:flex-col lg:items-start lg:gap-6 lg:mb-2">
-        <div className="relative aspect-[2/3] w-full max-w-56 self-center overflow-hidden rounded-md border border-black/10 bg-[#d9d7c9] sm:max-w-52 lg:max-w-64 lg:self-auto">
+        <div className="relative aspect-2/3 w-full max-w-56 self-center overflow-hidden rounded-md border border-black/10 bg-[#d9d7c9] sm:max-w-52 lg:max-w-64 lg:self-auto">
           <Image
             src="/karn.jpg"
             alt="Karan Chandola outdoors"
